@@ -681,12 +681,12 @@
                         </div>
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             <div class="validation"></div>
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          <button id="sendMail"  class="button button-a button-big button-rouded">Send Message</button>
                         </div>
                       </div>
                     </form>
@@ -771,6 +771,13 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <!--Send email-->
+  <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("user_zbcV28goaFncKYLO16YHi");
+    })();
+  </script>
 
 </body>
 </html>
