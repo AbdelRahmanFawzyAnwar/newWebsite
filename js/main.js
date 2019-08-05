@@ -150,27 +150,35 @@
 // });
 $('#sendMail').click(function () {
     debugger
-    var data = {
-        service_id: 'dev_abdelrahmanfawzy_gmail_com',
-        template_id: 'template_O8vvl3a1',
-        user_id: 'user_zbcV28goaFncKYLO16YHi',
-        template_params: {
-            'from_subject': document.getElementById("subject").value,
-            'from_email': document.getElementById("email").value,
-            'to_name': 'Abdelrahman',
-            'from_name': document.getElementById("name").value,
-            'message_html': document.getElementById("message").value
+    if ((document.getElementById("subject").value == "") || (document.getElementById("email").value == "") || (document.getElementById("name").value == "") || (document.getElementById("message").value == "")
+    ) {
 
-        }
-    };
+    } else {
 
-    $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
-        type: 'POST',
-        data: JSON.stringify(data),
-        contentType: 'application/json'
-    }).done(function () {
-        alert('Your mail is sent!');
-    }).fail(function (error) {
-        alert('Oops... ' + JSON.stringify(error));
-    });
+        debugger
+        var data = {
+            service_id: 'dev_abdelrahmanfawzy_gmail_com',
+            template_id: 'template_O8vvl3a1',
+            user_id: 'user_zbcV28goaFncKYLO16YHi',
+            template_params: {
+                'from_subject': document.getElementById("subject").value,
+                'from_email': document.getElementById("email").value,
+                'to_name': 'Abdelrahman',
+                'from_name': document.getElementById("name").value,
+                'message_html': document.getElementById("message").value
+
+            }
+        };
+
+        $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+            type: 'POST',
+            data: JSON.stringify(data),
+            contentType: 'application/json'
+        }).done(function () {
+            alert('Your mail is sent!');
+        }).fail(function (error) {
+            alert('Oops... ' + JSON.stringify(error));
+        });
+    }
 });
+
