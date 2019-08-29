@@ -672,8 +672,8 @@
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" name="name" class="form-control" id="name"
-                                                           placeholder="Your Name" data-rule="required"
-                                                           data-msg="Please enter your name"/>
+                                                           placeholder="Your Name" data-rule="required" minlength="4"
+                                                           data-msg="Your name should not be empty or less than 4 characters"/>
                                                     <div class="validation"></div>
                                                 </div>
                                             </div>
@@ -681,23 +681,23 @@
                                                 <div class="form-group">
                                                     <input type="email" class="form-control" name="email" id="email"
                                                            placeholder="Your Email" data-rule="email"
-                                                           data-msg="Please enter a valid email"/>
+                                                           data-msg="You have entered an invalid email address!"/>
                                                     <div class="validation"></div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <input type="text" class="form-control" name="subject" id="subject"
-                                                           placeholder="Subject" data-rule="required"
-                                                           data-msg="Please enter your subject"/>
+                                                           placeholder="Subject" data-rule="required" minlength="4"
+                                                           data-msg="Subject should not be empty or less than 4 characters"/>
                                                     <div class="validation"></div>
                                                 </div>
                                             </div>
                                             <div class="col-md-12 mb-3">
                                                 <div class="form-group">
                                                     <textarea class="form-control" id="message" name="message" rows="5"
-                                                              data-rule="required"
-                                                              data-msg="Please write something for us"
+                                                              data-rule="required" minlength="4"
+                                                              data-msg="Message should not be empty or less than 4 characters"
                                                               placeholder="Message"></textarea>
                                                     <div class="validation"></div>
                                                 </div>

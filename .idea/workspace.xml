@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="96ba67bb-0eb4-4c75-bc67-c00c67fd28ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/testimonial-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/testimonial-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/testimonial-21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/testimonial-222234.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,30 +16,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Q6NuBPiPJa8r8M6BjcPgvJnoXJ" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="newWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newWebsite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newWebsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newWebsite" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -75,6 +49,7 @@
       <workItem from="1564327831387" duration="4961000" />
       <workItem from="1565004676528" duration="8123000" />
       <workItem from="1567087308358" duration="466000" />
+      <workItem from="1567096946315" duration="4965000" />
     </task>
     <servers />
   </component>
@@ -86,7 +61,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
